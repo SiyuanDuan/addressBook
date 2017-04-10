@@ -20,33 +20,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iia-Q4-8PN">
-                                <rect key="frame" x="169.5" y="323" width="35" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-8e-FEU">
-                                <rect key="frame" x="164" y="360" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="cbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6oW-nW-h4a"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="bBh-8e-FEU" firstAttribute="top" secondItem="iia-Q4-8PN" secondAttribute="bottom" constant="16" id="Phg-MM-iyP"/>
-                            <constraint firstItem="iia-Q4-8PN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tl8-yp-7YJ"/>
-                            <constraint firstItem="iia-Q4-8PN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YgU-Ym-BxK"/>
-                            <constraint firstItem="bBh-8e-FEU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dL3-sY-sKn"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AxG-Et-nxA"/>
-                    <connections>
-                        <outlet property="label" destination="iia-Q4-8PN" id="gOL-cY-1GU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

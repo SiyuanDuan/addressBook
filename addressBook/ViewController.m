@@ -53,20 +53,14 @@
     
     [self setNavBtn];
     
-    //[self.view addSubview:self.tableView];
+    [self.view addSubview:self.tableView];
     
     [self.tableView reloadData];
     
-    self.label.text = @"修改";
+
 }
 
-- (IBAction)cbtn:(UIButton *)sender {
-    //栈
-    seViewController* VC = [[seViewController alloc] init];
-    
-    //Push
-    [self.navigationController pushViewController:VC animated:YES];
-}
+
 
 #pragma mark - 设置导航栏标题
 -(void)setNavTitle{
